@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Open+Sans:wght@300;500&family=Poppins:wght@500&display=swap');
+body{
+    background-image: url(https://wallpapercave.com/wp/wp9562601.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    overflow: hidden;
+}
+h1{
+    text-align: center;
+}
+.cont{
+    margin-top: 130px;
+    margin-left: 485px;
+    max-width: 300px;
+    border: 2px solid #fff;
+    background-color: #0000008e;
+    border-radius: 8px;
+    padding: 25px;
+}
+.cont-cta-1{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.dados{
+    padding: 10px;
+    background-color: #000;
+    border: 1px solid #fff;
+    color: #fff;
+    text-align: center;
+}
+button{
+    margin-left: 90px;
+    border: 1px solid #fff;
+    padding: 10px;
+    color: #fff;
+    background-color: #000;
+    font-weight: 500;
+}
+footer{
+    background-color: #00000086;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    margin-top: 100px;
+}
+footer > h3{
+    padding: 10px;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 5px;
+    border-radius: 8px;
+    transition: .5s;
+}
+a:hover{
+    background-color: #fff;
+    color: #000;
+}

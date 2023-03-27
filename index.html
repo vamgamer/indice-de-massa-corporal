@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/6cda497682.js" crossorigin="anonymous"></script>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <title>IMC</title>
+</head>
+
+<body>
+    <h1>IMC (índice de massa corporal)   <i class="fa-solid fa-dumbbell fa-beat-fade fa-xl" style="color: #fff;"></i></h1>
+    <section class="cont">
+        <div class="cont-cta-1">
+            <label for="peso">Peso(kg)  <i class="fa-solid fa-weight-scale"></i> :</label>
+            <input type="number" id="peso" name="peso" class="dados">
+        </div>
+        <br>
+        <div class="cont-cta-1">
+            <label for="altura">Altura   <i class="fa-solid fa-ruler"></i> :</label>
+            <input type="number" id="altura" name="altura" class="dados">
+        </div>
+        <br>
+        <button onclick="calcularimc()">Calcular - IMC</button>
+
+        <p>Seu indice de massa corporal é...<span id="resultado"></span></p>
+    </section>
+    <footer>
+        <footer>
+            <h3>
+                Desenvolvido por: DaviRexhausenVieira &reg; | <a href="mailto:rexdavi5855@gmail.com">Contato</a>
+            </h3>
+        </footer>
+    </footer>
+</body>
+
+</html>
