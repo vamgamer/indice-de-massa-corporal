@@ -67,7 +67,7 @@ a:hover{
     body{
         height: 100%;
         overflow: auto;
-        background-position: center;
+        /* background-position: center; */
         background-size: cover;
     }
     h1{
