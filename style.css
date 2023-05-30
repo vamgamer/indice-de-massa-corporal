@@ -65,7 +65,7 @@ a:hover{
 }
 @media (max-width: 580px){
     body{
-        height: 700px;
+        height: 800px;
         overflow: auto;
         background-position: center;
         background-size: cover;
